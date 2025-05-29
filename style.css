@@ -3,7 +3,6 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     font-size: large;
-
 }
 
 h1 {
@@ -12,7 +11,7 @@ font-size: 40px;
 
 }
 
-.header {
+header {
 background-color: #a8a4a4;
 display:flex;
 justify-content: space-between;
@@ -24,7 +23,7 @@ p {
     color: #333;
 }
 
-.header button {
+header button {
    border: 1px solid #000;
    height: 45px;
    font-weight: 800;
