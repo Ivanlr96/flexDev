@@ -11,13 +11,12 @@ font-size: 40px;
 }
 
 nav {
- display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     max-width: 900px;
     margin: 0 auto;
-
 }
 
 .nav-btn {
