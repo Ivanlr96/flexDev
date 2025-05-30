@@ -41,6 +41,11 @@ nav {
 .nav-btn:focus {
     color: black;
 }
+
+.logo {
+    height: auto;
+    width: 200px;
+}
    
 
 header {
