@@ -1,9 +1,8 @@
 body {
-    font-family: 'Schibsted Grotesk', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     font-size: large;
-    
 }
 
 h1 {
@@ -100,10 +99,7 @@ header button {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 24px;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding: 40px;
     box-sizing: border-box;
     margin-bottom: 20px;
 
@@ -132,32 +128,15 @@ header button {
     display: flex;
     justify-content: center;
     gap: 5px;
-}
-
-.see {
-    padding-top: 12px;
     padding-bottom: 12px;
-    padding-left: 24px;
-    padding-right: 24px;
-
-
 }
 
  .btn-see {
-    
    border-radius: 50px;
-   width: 176px;
-   height: 54px;
-   font-size: 24px;
-   font-weight: semibold;
-
-
+   width: fit-content;
+    margin: 0 auto;
 }
-.fa-eye {
-    width: 24px;
-    height: 24px;
-    margin-left: 20px;
-}
+
 .card-ln{
     display: inline-flex;
     align-items: center;
@@ -217,4 +196,39 @@ a {
 
 .card-ln:hover, .card-gh:hover {
     scale: 1.1;
+}
+
+/* Footer */
+
+footer {
+    background-color: #a8a4a4;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a, footer p{
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 32px;
+}
+
+.footer-isotipo {
+    height: 120px;
+    width: auto;
+    filter: brightness(0) invert(1);
 }
