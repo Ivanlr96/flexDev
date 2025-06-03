@@ -1,0 +1,13 @@
+/* CARDS [Figma] */
+.card-projects{
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+.card-project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+    padding: 16px 34px 16px 0px;
+    /* padding-left: 36px [Figma] not added */
+}
