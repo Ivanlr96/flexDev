@@ -1,8 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Schibsted Grotesk', Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     font-size: large;
+    
 }
 
 h1 {
@@ -99,7 +100,10 @@ header button {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 24px;
+    padding-left: 120px;
+    padding-right: 120px;
     box-sizing: border-box;
     margin-bottom: 20px;
 
@@ -116,12 +120,70 @@ header button {
     background-color: #ccc;
     border-radius: 2%;
 }
+
 .card img {
     width: 15%;
     height: auto;
-  transition: 0.4s ease;
-   
+    transition: 0.4s ease;
 }
+
+/* Iconos */
+.card-logos{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.see {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+
+}
+
+ .btn-see {
+    
+   border-radius: 50px;
+   width: 176px;
+   height: 54px;
+   font-size: 24px;
+   font-weight: semibold;
+
+
+}
+.fa-eye {
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+}
+.card-ln{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 47px;
+    height: 47px;
+    border: solid 3px black;
+    border-radius: 50%;
+    color: black;
+    font-size: 25px;
+    transition: 0.4s ease;
+}
+
+.card-gh{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: black;
+    font-size: 50px;
+    transition: 0.4s ease;
+}
+
+/* Iconos */
 
 a {
     text-decoration: none;
@@ -150,5 +212,9 @@ a {
 /* extras */
 
 .card img:hover {
+    scale: 1.1;
+}
+
+.card-ln:hover, .card-gh:hover {
     scale: 1.1;
 }
