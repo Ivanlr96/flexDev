@@ -218,3 +218,17 @@ a {
 .card-ln:hover, .card-gh:hover {
     scale: 1.1;
 }
+
+
+#profile-modal {
+    width: 720px;
+    height: 835px;
+    border: none;
+
+
+}
+
+.blur-bg {
+    filter: blur(6px);
+    transition: filter 0.3s;
+}
