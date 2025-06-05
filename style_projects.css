@@ -25,3 +25,26 @@
 .btn-project i {
     padding-left: 10px;
 }
+
+.img-container {
+    width: 432px;
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.truncate-3-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
