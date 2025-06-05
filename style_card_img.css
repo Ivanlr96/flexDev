@@ -1,0 +1,6 @@
+/*Este código es solamente para las imagenes que se
+descuadraron, en este caso la de Iván y Sara*/
+.avatar img,
+.avatar .profile {
+  object-position:center 25% ;
+}
