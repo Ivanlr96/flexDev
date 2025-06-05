@@ -3,11 +3,12 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     font-size: large;
-    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h1 {
-
 font-size: 40px;
 }
 
@@ -189,12 +190,48 @@ a {
     text-decoration: none;
 }
 
+/* Footer */
+
+footer {
+    background-color: #a8a4a4;
+    text-align: center;
+    padding: 20px;
+    font-size: 10px;
+    margin-top: auto;
+    position: sticky;
+}
+
+footer a, footer p, footer{
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 32px;
+}
+
 /* Responsive tablet */
 @media (max-width: 915px) {
    .cards {
 
     flex-direction: column;
     align-items: center;
+   }
+
+   .footer-separator{
+    display: none;
    }
 }
 
@@ -203,9 +240,14 @@ a {
     .logo {
         width: 150px;
     }
+
     .nav-btn {
         width: 100px;
         font-size: 16px;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
     }
 }
 
@@ -217,4 +259,18 @@ a {
 
 .card-ln:hover, .card-gh:hover {
     scale: 1.1;
+}
+
+
+#profile-modal {
+    width: 720px;
+    height: 835px;
+    border: none;
+
+
+}
+
+.blur-bg {
+    filter: blur(6px);
+    
 }
