@@ -123,6 +123,12 @@ nav {
     background-color: #E2F3CD;
 }
 
+.card.active-border {
+  
+    border-color: #304A12;
+    background-color: #FAFDF7;
+}
+
 .foto {
     display: flex;
     padding: 0;
