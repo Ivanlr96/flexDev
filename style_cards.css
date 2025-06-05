@@ -64,6 +64,7 @@ p {
     object-fit: cover;
     object-position: center 10%; /* Mueve la imagen hacia abajo */
     display: block;
+    filter: grayscale(100%)
 }
 
 .social-icons {
