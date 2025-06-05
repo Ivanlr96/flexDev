@@ -70,17 +70,20 @@ nav {
     margin: 0 auto;
 }
 
-.logo {
-    height: auto;
+.logo-container {
     width: 200px;
+    height: 100px;
+}
+
+.logo {
+    width: 200px;
+    position: relative;
+    top: -30px;
 }
 
 .card h3 {
     margin: 12px auto;
 }
-   
-
-
 
 .description {
     display: flex;
