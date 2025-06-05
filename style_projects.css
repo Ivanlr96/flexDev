@@ -10,4 +10,18 @@
     column-gap: 24px;
     padding: 16px 34px 16px 0px;
     /* padding-left: 36px [Figma] not added */
+    
+}
+
+.card-title {
+    margin-top: 0px;
+}
+
+.btn-project {
+    width: 194px;
+    padding: 13px 30px;
+}
+
+.btn-project i {
+    padding-left: 10px;
 }
