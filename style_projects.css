@@ -97,5 +97,41 @@
     }
 }
 
-/* TODO: Mobile styles 445px*/
+/* TODO: Comment with Team: Mobile styles set to 445px rather than 435px*/
+/* Mobile styles 445px*/
+@media (max-width: 445px) {
+     html {
+        min-width: 320px;
+    }
 
+    nav .btn-primary{
+        padding: 8px;
+        font-size: 18px;
+    }
+
+    .description h1 {
+        font-size: 60px;
+    }
+
+    .card-projects h3 {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .card-project {
+        grid-template-columns: 320px;
+    }
+
+    .card-title {
+        text-align: center;
+    }
+
+    .img-container {
+    width: 320px;
+    height: auto;
+    }
+
+    .info-project p {
+        margin: 24px 10px;
+    }
+} 
