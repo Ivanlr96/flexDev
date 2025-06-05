@@ -1,15 +1,64 @@
+/* FIGMA PRESETS */
 body {
     font-family: 'Schibsted Grotesk', Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #fff;
     margin: 0;
-    font-size: large;
+    font-size: 24px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 h1 {
-font-size: 40px;
+    font-size: 64px;
+    margin-top: 46px;
+    margin-bottom: 22px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+p {
+    color: #333;
+}
+
+.btn-primary {
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #7FC52E;
+    color: #304A12;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease;
+    border: none;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+    background-color: #C9EAA4;
+    color: #4A741B;
+}
+
+.btn-primary:active {
+    background-color: #4A741B;
+    color: #98D652;
+}
+
+/* FIGMA PRESETS */
+
+header {
+background-color: #FAFDF7;
+text-align: center;
+padding: 20px; 
+
 }
 
 nav {
@@ -21,54 +70,17 @@ nav {
     margin: 0 auto;
 }
 
-.nav-btn {
-    padding: 5px 10px;
-    border: solid black 1px;
-    background-color: #fff;
-    color: black;
-    font-weight: 500;
-    transition: 0.2s ease;
-}
-
-.nav-btn:hover {
-    cursor: pointer;
-    background-color: whitesmoke;
-    transition: 0.2s ease;
-}
-
-.nav-btn:focus {
-    background-color: white;
-}
-
-.nav-btn:focus {
-    color: black;
-}
-
 .logo {
     height: auto;
     width: 200px;
 }
+
+.card h3 {
+    margin: 12px auto;
+}
    
 
-header {
-background-color: #a8a4a4;
-text-align: center;
-padding: 20px; 
 
-}
-
-p {
-    font-size: 25px;
-    color: #333;
-}
-
-header button {
-   border: 1px solid #000;
-   height: 45px;
-   font-weight: 800;
-   font:bold;
-    background-color: #f4f4f4;
-}
 
 .description {
     display: flex;
@@ -88,8 +100,6 @@ header button {
     margin-bottom: 20px;
     max-width: 900px;
     margin: 0 auto;
-
-
 }
 
 .card {
@@ -107,11 +117,10 @@ header button {
     padding-right: 120px;
     box-sizing: border-box;
     margin-bottom: 20px;
-
+    background-color: #E2F3CD;
 }
 
 .foto {
-
     display: flex;
     border: 1px solid black;
     padding: 5%;
@@ -132,33 +141,28 @@ header button {
 .card-logos{
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 18px;
 }
 
 .see {
     padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 24px;
-    padding-right: 24px;
-
-
+    display: flex;
+    justify-content: center;
 }
 
- .btn-see {
-    
-   border-radius: 50px;
-   width: 176px;
-   height: 54px;
-   font-size: 24px;
-   font-weight: semibold;
-
-
+.see .btn-primary{
+    padding: 15px 20px;
+    font-weight: 500;
+    width: 176px;
+    height: 54px;
 }
+
 .fa-eye {
     width: 24px;
     height: 24px;
     margin-left: 20px;
 }
+
 .card-ln{
     display: inline-flex;
     align-items: center;
