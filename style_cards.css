@@ -82,7 +82,6 @@ p {
     border-radius: 0 32px 32px 0;
 
     z-index: 1;
-    gap: 4px;
     padding: 0;
 }
 /* Iconos */
@@ -92,6 +91,21 @@ p {
     padding-right: 12px;
     font-size: 36px;
     color: black;
+    transition: 0.3s ease-in;
+}
+
+.fa-linkedin:hover, 
+.fa-github:hover {
+    color: #4A741B;
+    scale: 1.05;
+}
+
+.fa-linkedin:active, 
+.fa-github:active  {
+    color: #98D652;
+    scale: 1;
+    border-color: #98D652;
+    transition: 0.1s ease;
 }
 
 .skills {
