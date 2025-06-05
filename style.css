@@ -271,10 +271,13 @@ footer a, footer p, footer{
 
 #profile-modal {
     width: 720px;
-    height: 835px;
+    height: 1000px;
     border: none;
-
-
+    border-radius: 28px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .blur-bg {
