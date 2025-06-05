@@ -272,5 +272,5 @@ footer a, footer p, footer{
 
 .blur-bg {
     filter: blur(6px);
-    transition: filter 0.3s;
+    
 }
