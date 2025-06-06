@@ -4,6 +4,8 @@
 
 [![proto](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2pmOWtzMWlidjlqbnEzc2Rkc2VpNTd1OWJpbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6x35E0VpE159IrW5oJ/giphy.gif)](https://youtu.be/_hoh521MQjc?si=6pjhDldyhW9Mz9jT)
 
+[Link preview](https://ivanlr96.github.io/flexDev/index.html)
+
 ## 📊 Quick facts
 
 ### Project based on
